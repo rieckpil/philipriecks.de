@@ -69,7 +69,7 @@ weight = 6
 
 #################### default parameters ################################
 [params]
-logo = "images/logo.png"
+#logo = "images/logo.png"
 # Meta data
 description = "Founer & Indie Hacker from Berlin, Germany."
 author = "Philip Riecks"
