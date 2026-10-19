@@ -1,0 +1,30 @@
+baseURL = "https://philipriecks.de/"
+title = "Philip Riecks | IT-Beratung für Softwareentwicklung, Modernisierung und Testing"
+locale = "de-DE"
+defaultContentLanguage = "de"
+enableRobotsTXT = true
+disableKinds = ["taxonomy", "term", "RSS"]
+
+[params]
+description = "Philip Riecks von Riecks IT Consulting in Erlangen unterstützt Unternehmen aus Fertigung und E-Commerce bei Softwareentwicklung, Modernisierung und Testing."
+author = "Philip Riecks"
+
+[[menus.main]]
+name = "Leistungen"
+pageRef = "/#leistungen"
+weight = 1
+
+[[menus.main]]
+name = "Branchen"
+pageRef = "/#branchen"
+weight = 2
+
+[[menus.main]]
+name = "Über mich"
+pageRef = "/#ueber-mich"
+weight = 3
+
+[[menus.main]]
+name = "Kontakt"
+pageRef = "/#kontakt"
+weight = 4

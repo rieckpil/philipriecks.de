@@ -1,0 +1,61 @@
+{{ define "main" }}
+{{ with hugo.Data.home }}
+<section class="hero" id="start">
+  <div class="container">
+    <p class="eyebrow">{{ .hero.eyebrow }}</p>
+    <h1>{{ .hero.title }}</h1>
+    <p class="lead">{{ .hero.text }}</p>
+    <a class="btn" href="#kontakt">{{ .hero.cta }}</a>
+  </div>
+</section>
+
+<section class="section" id="leistungen">
+  <div class="container">
+    <h2>{{ .services.title }}</h2>
+    <p class="intro">{{ .services.intro }}</p>
+    <div class="grid grid-3">
+      {{ range .services.items }}
+      <article class="card">
+        <h3>{{ .name }}</h3>
+        <p>{{ .text }}</p>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="branchen">
+  <div class="container">
+    <h2>{{ .industries.title }}</h2>
+    <p class="intro">{{ .industries.intro }}</p>
+    <div class="grid grid-2">
+      {{ range .industries.items }}
+      <article class="card">
+        <h3>{{ .name }}</h3>
+        <p>{{ .text }}</p>
+      </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section" id="ueber-mich">
+  <div class="container about">
+    <img src="{{ "images/author.jpg" | relURL }}" alt="Philip Riecks" width="220" height="220" loading="lazy">
+    <div>
+      <h2>{{ .about.title }}</h2>
+      {{ range .about.paragraphs }}<p>{{ . }}</p>{{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="kontakt">
+  <div class="container narrow center">
+    <h2>{{ .contact.title }}</h2>
+    <p class="intro">{{ .contact.text }}</p>
+    <a class="btn" href="{{ "impressum/" | relURL }}">Kontaktdaten</a>
+    <address>Riecks IT Consulting<br>Jahnstraße 6<br>91054 Erlangen</address>
+  </div>
+</section>
+{{ end }}
+{{ end }}

@@ -1,0 +1,35 @@
+hero:
+  eyebrow: "Riecks IT Consulting"
+  title: "Software, die läuft. Und weiterläuft."
+  text: "Ich bin Philip Riecks, freiberuflicher IT-Berater aus Erlangen. Ich unterstütze Unternehmen bei Softwareentwicklung, Modernisierung und Testing - praxisnah, verständlich und mit Blick auf den langfristigen Betrieb."
+  cta: "Kontakt aufnehmen"
+
+services:
+  title: "Leistungen"
+  intro: "Ich begleite Ihr Team dort, wo Software wirtschaftlich wichtig ist, und sorge für Ergebnisse, die dauerhaft tragen."
+  items:
+    - name: "Softwareentwicklung"
+      text: "Entwicklung und Weiterentwicklung von Geschäftsanwendungen und Schnittstellen mit Java und Spring Boot. Sauber strukturiert, gut wartbar und bereit für den Betrieb in der Cloud."
+    - name: "Modernisierung"
+      text: "Bestehende Systeme schrittweise erneuern, statt alles neu zu bauen. Von der Analyse über Architekturentscheidungen bis zur Migration auf aktuelle Technik und in die Cloud."
+    - name: "Testing und Qualität"
+      text: "Automatisierte Tests, die Vertrauen schaffen. Ich baue Teststrategien auf, führe Teams an Testautomatisierung heran und mache Releases planbar."
+
+industries:
+  title: "Branchen"
+  intro: "Ich kenne die Anforderungen aus zwei Welten, in denen Software direkt über Umsatz und Lieferfähigkeit entscheidet."
+  items:
+    - name: "Fertigung"
+      text: "Software rund um Produktion, Logistik und Auftragsabwicklung. Hier zählen Stabilität, saubere Schnittstellen zu Bestandssystemen und Änderungen ohne Stillstand."
+    - name: "E-Commerce"
+      text: "Shop-Plattformen, Bestellprozesse und Integrationen. Hier zählen schnelle Releases, hohe Verfügbarkeit und Tests, die Fehler vor dem Kunden finden."
+
+about:
+  title: "Über mich"
+  paragraphs:
+    - "Ich bin freiberuflicher IT-Berater und helfe Teams, Software zuverlässig zu entwickeln, zu modernisieren und abzusichern."
+    - "Mein Schwerpunkt liegt auf dem Java-Ökosystem mit Spring Boot, AWS und Testing. Mein Leitgedanke: Testen kann Freude machen, wenn man weiß, wie. Dieses Wissen gebe ich auch in Fachartikeln, Videos und Schulungen weiter. Zudem bin ich Mitautor des Buchs „Stratospheric - From Zero to Production with Spring Boot and AWS“."
+
+contact:
+  title: "Kontakt"
+  text: "Sie haben ein Projekt, ein Altsystem oder ein Testproblem? Nehmen Sie Kontakt auf und schildern Sie kurz, worum es geht. Ich melde mich zeitnah mit einer ersten Einschätzung."
